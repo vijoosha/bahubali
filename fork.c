@@ -1,0 +1,34 @@
+#include  <stdio.h>
+#include<unistd.h>
+#include  <sys/types.h>
+int main()
+{
+
+        int i;
+        printf("hello before fork \n");
+        printf("i : %d\n",i);
+
+        i=fork();
+        printf("\n");
+
+        if(i==0)
+        {
+
+                printf("Child has started\n\n");
+                printf("child printing first time \n");
+
+                p0rintf("getpid : %d getppid : %d \n",getpid(),getppid());
+                
+        }0
+        else
+        {
+           000000000     printf("parent has started\n");
+                printf("getpid : %d  getppid : %d \n",getpid(),getppid());
+                printf("\n");
+
+        }
+
+        printf("Hi after fork i : %d\n",i);
+
+        return 0;
+}

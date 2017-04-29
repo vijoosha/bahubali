@@ -1,0 +1,95 @@
+#include<stdio.h>
+#include<string.h>
+
+int* key(char a)
+{
+	int *index[2];
+	index=(int *)malloc(2*sizeof(int));
+	switch(a);
+	{
+		case 'A': index[0]=0;
+			 index[1]=0;
+			 break;
+		case 'B': index[0]=0;
+			 index[1]=1;
+			 break;
+		case 'C': index[0]=0;
+			 index[1]=2;
+			 break;
+		case 'D': index[0]=0;
+			 index[1]=3;
+			 break;
+		case 'E': index[0]=0;
+			 index[1]=4;
+			 break;
+		case 'F': index[0]=0;
+			 index[1]=5;
+			 break;
+		case 'G': index[0]=0;
+			 index[1]=6;
+			 break;
+		case 'H': index[0]=1;
+			 index[1]=0;
+			 break;
+		case 'I': index[0]=1;
+			 index[1]=1;
+			 break;
+		case 'J': index[0]=1;
+			 index[1]=2;
+			 break;
+		case 'K': index[0]=1;
+			 index[1]=3;
+			 break;
+		case 'L': index[0]=1;
+			 index[1]=4;
+			 break;
+		case 'M': index[0]=1;
+			 index[1]=5;
+			 break;
+		case 'N': index[0]=1;
+			 index[1]=6;
+			 break;
+		case 'O': index[0]=2;
+			 index[1]=0;
+			 break;
+		case 'P': index[0]=2;
+			 index[1]=1;
+			 break;
+		case 'Q': index[0]=2;
+			 index[1]=2;
+			 break;
+		case 'R': index[0]=2;
+			 index[1]=3;
+			 break;
+		case 'S': index[0]=2;
+			 index[1]=4;
+			 break;
+		case 'T': index[0]=2;
+			 index[1]=5;
+			 break;
+		case 'U': index[0]=2;
+			 index[1]=6;
+			 break;
+		case 'V': index[0]=3;
+			 index[1]=0;
+			 break;
+		case 'W': index[0]=3;
+			 index[1]=1;
+			 break;
+		case 'X': index[0]=3;
+			 index[1]=2;
+			 break;
+		case 'Y': index[0]=3;
+			 index[1]=3;
+			 break;
+		case 'Z': index[0]=3;
+			 index[1]=4;
+			 break;
+		case ' ': index[0]=3;
+			 index[1]=5;
+			 break;
+		case '\0': index[0]=0;
+			 index[1]=0;
+			 break;
+																																																				
+}
